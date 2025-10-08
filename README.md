@@ -15,6 +15,8 @@ This repository provides the official PyTorch implementation of the following pa
 - PyTorch == 2.3.1
 - transformers == 4.41.2
 - diffusers == 0.18.2
+- clip
+- opencv-python
 - datasets
 
 ## Pytorch Implementation
