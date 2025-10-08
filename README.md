@@ -40,9 +40,10 @@ python generate_images.py --seed 2 --method adj_init_noise --per_sample --target
 ### Evaluation
 
 #### Calculate SSCD and CLIP scores
-1. Before computing the SSCD score, download the checkpoint file ``sscd_disc_mixup.torchscript.pt`` from [sscd-copy-detection](https://github.com/facebookresearch/sscd-copy-detection) and place it in the ``download`` directory. Additionally, download all ground-truth images from [Detecting](https://github.com/YuxinWenRick/diffusion_memorization).
+1. Create a directory named ``download`` in the current working directory.
+2. Download the checkpoint file ``sscd_disc_mixup.torchscript.pt`` from [sscd-copy-detection](https://github.com/facebookresearch/sscd-copy-detection) and place it in the ``download`` directory. Additionally, download all ground-truth images from [Detecting](https://github.com/YuxinWenRick/diffusion_memorization).
 
-2. Run the following command:
+3. Run the following command:
 ```
 python metrics/compute_sscd_orig_clip_score.py --gen_folder GEN_IMG_DIR --prompts prompts/memorized_laion_prompts.csv
 ```
