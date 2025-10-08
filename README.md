@@ -60,10 +60,10 @@ pip install image-reward
 python metrics/compute_lpips_imagereward.py --gen_folder GEN_IMG_DIR --prompts prompts/memorized_laion_prompts.csv
 ```
 
-### Contact
+## Contact
 Hyeonggeun Han (hygnhan@snu.ac.kr)
 
 Sehwan Kim (sehwankim@snu.ac.kr)
 
-### Acknowledgments
+## Acknowledgments
 Our PyTorch implementation is built upon [Detecting](https://github.com/YuxinWenRick/diffusion_memorization) and [NeMo](https://github.com/ml-research/localizing_memorization_in_diffusion_models). We sincerely thank the authors for their foundational work.
