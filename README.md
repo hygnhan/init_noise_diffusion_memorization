@@ -5,7 +5,7 @@ This repository provides the official PyTorch implementation of the following pa
 > \* These authors contributed equally to this work.<br>
 > NeurIPS 2025
 
-> Paper: [Arxiv](TODO:) <br>
+> Paper: [Arxiv](https://arxiv.org/pdf/2510.08625)<br>
 
 **Abstract:** 
 *Despite their impressive generative capabilities, text-to-image diffusion models often memorize and replicate training data, prompting serious concerns over privacy and copyright. Recent work has attributed this memorization to an attraction basin—a region where applying classifier-free guidance (CFG) steers the denoising trajectory toward memorized outputs—and has proposed deferring CFG application until the denoising trajectory escapes this basin. However, such delays often result in non-memorized images that are poorly aligned with the input prompts, highlighting the need to promote earlier escape so that CFG can be applied sooner in the denoising process. In this work, we show that the initial noise sample plays a crucial role in determining when this escape occurs. We empirically observe that different initial samples lead to varying escape times. Building on this insight, we propose two mitigation strategies that adjust the initial noise—either collectively or individually—to find and utilize initial samples that encourage earlier basin escape. These approaches significantly reduce memorization while preserving image-text alignment.*<br>
